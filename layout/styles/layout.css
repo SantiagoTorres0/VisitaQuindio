@@ -45,12 +45,9 @@ File: Layout CSS
 
 /* Content */
 .propio{	
-	float: left; 
-	color: #A8A7A6;
+	float:right; 
+	color: black;
 	font-size: 10px;
-}
-.cabeza{
-	color: #15AD72;;
 }
 .container .content{}
 
@@ -125,7 +122,7 @@ File: Layout CSS
 	text-align:center;
 }
 #footer .heading::first-letter {
-	color: #15AD72;
+	color: #036113;
 }
 #footer .text{
 	text-align: center;
@@ -279,19 +276,19 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#A8A7A6; background-color:#0F1620;}
-a{color:#15AD72;}
-a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
-hr, .borderedbox{border-color:#F4F4F4;}
+a{color:#036113;}
+a:active {background:#02380b;}/* IE10 + 11 Bugfix - prevents grey background */
+hr, .borderedbox{border-color:#02380b;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{border-color:#15AD72;}
+input:focus, textarea:focus, *:required:focus{border-color#02380b;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(27,32,38,.55);/* #1B2026 */}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.8);}
-.overlay.coloured::after{background-color:rgba(21,173,114,.4); /* #15AD72 */}
+.overlay.coloured::after{background-color:#036113; /* #15AD72 */}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#15AD72; border-color:#15AD72;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#036113; border-color:#02380b;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
@@ -305,7 +302,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#15AD72;}
 
 /* Header */
 #header #logo a{color:inherit;}
-#header #logo a:hover, #header #logo ::first-letter{color:#15AD72;}
+#header #logo a:hover, #header #logo ::first-letter{color:#036113;}
 
 
 /* Page Intro */
@@ -313,8 +310,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#15AD72;}
 
 
 /* Content Area */
-.elements article i{border-color:#15AD72; background-color:rgba(255,255,255,.2);}
-.elements article:hover i{color:#FFFFFF; background-color:#15AD72;}
+.elements article i{border-color:#02380b; background-color:rgba(255,255,255,.2);}
+.elements article:hover i{color:#FFFFFF; background-color:#036113;}
 
 .testimonials article blockquote{color:#474747; background-color:#FFFFFF;}
 .testimonials article blockquote::before{color:rgba(0,0,0,.1);}
@@ -331,32 +328,32 @@ input:focus, textarea:focus, *:required:focus{border-color:#15AD72;}
 
 #footer input, #footer button{border-color:transparent;}
 #footer input{color:#FFFFFF; background-color:#0F1620;}
-#footer input:focus{border-color:#59A209;}
-#footer button{color:#FFFFFF; background-color:#15AD72;}
+#footer input:focus{border-color:#02380b;}
+#footer button{color:#FFFFFF; background-color:#036113;}
 
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#15AD72; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#036113; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#15AD72;}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#036113;}
 #mainav form select{color:#FFFFFF; background-color:#0F1620; border-color:rgba(255,255,255,.2);}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
-#breadcrumb li:last-child a{color:#15AD72;}
+#breadcrumb li:last-child a{color:#036113;}
 
 .container .sidebar nav a{color:inherit; border-color:#F4F4F4;}
-.container .sidebar nav a:hover{color:#15AD72;}
+.container .sidebar nav a:hover{color:#036113;}
 
 .pagination a, .pagination strong{border-color:#F4F4F4;}
-.pagination .current *{color:#FFFFFF; background-color:#15AD72;}
+.pagination .current *{color:#FFFFFF; background-color:#036113;}
 
-#backtotop{color:#FFFFFF; background-color:#15AD72;}
+#backtotop{color:#FFFFFF; background-color:#036113;}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#F4F4F4;}
-#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#15AD72;}
+#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#02380b;}
 th{color:#FFFFFF; background-color:#373737;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
